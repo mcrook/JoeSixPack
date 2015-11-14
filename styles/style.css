@@ -7,9 +7,9 @@ ul {
     padding: 0;
 }
 body {
+	height:100%;
 	margin:0;
 	width:100%;
-	background-color:#040404;
 }
 .block {
     width: 100%;
@@ -30,16 +30,17 @@ background-color:#fff;
 .header-container {
 position: relative;
 z-index: 3;
-background-color:#7ba1cc;
-height: 68px;
+background-color:#3e628b;
+height: 35px;
 padding: 5px 0 0;
 width:100%;
 }
 .logo-container {
-	height:100px;
+	height:115px;
+	width:125px;
 }
 .nav {
-	padding-left: 100px;
+	padding-left: 115px;
 	position:absolute;
 	top:0;
 	z-index:2;
@@ -55,13 +56,16 @@ width:100%;
   margin: 0;
 }
 .nav ul li{
-  font-size:1.2em;
+font-size:1.0em;
 	font-family: 'Oswald', sans-serif;
-	font-weight:700;
+	font-weight:500;
 	color:#ffe6be;
 	display:inline-block;
+	height:40px;
+	line-height:40px;
 }
 .nav a {
+	font-size:font-size:1.0em;;
   text-decoration: none;
   color:#ffe6be;
   display: block;
@@ -75,6 +79,12 @@ width:100%;
 	 display: inline-block;
 	 margin-right: -4px;
  }
+ .nav-right {
+    position: relative;
+    float: right;
+    width: auto;
+    display: inline-block;
+	}
 @media screen and (min-width: 1200px) {
   .nav li {
     width: 120px;
@@ -96,3 +106,64 @@ width:100%;
 		margin:0 auto;
 		width:1200px;
 	}
+	ul {list-style: none;padding: 0px;margin: 0px;}
+	  ul li {display: block;position: relative;float: left;font-size:1.0em;}
+	  li ul {display: none;background:#a20b3b;}
+	  ul li a {display: block;background: #3e628b;text-decoration: none;
+	           white-space: nowrap;color: #fff;}
+	  ul li a:hover {background:#a20b3b;}
+	  li:hover ul {display: block; position: absolute;}
+	  li:hover li {float: none;}
+	  li:hover a {background:#a20b3b;}
+	  li:hover li a:hover {background:#a20b3b;}
+form, input {
+
+	color:#422b2e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:.9em
+}
+input{
+	border:2px solid #422b2e;
+}
+		#webForm {
+			box-sizing: border-box;
+			top:200px;
+			left:800px;
+			position:absolute;
+			float:right;
+			color:black;
+			width:250px;
+			display:inline-flex;
+		}
+		@media screen and (min-width: 1200px) {
+fieldset {
+border:0 none;
+    width: 40%;
+    float: right;
+    top: 55px;
+    position: absolute;
+    Left: 800px;
+}
+}
+button {
+	color:#fff;
+	background-color:#a20b3b;
+	border:0 none;
+	padding:10px 15px;
+}
+.main-content {
+	width:100%;
+	top:140px;
+	height:800px;
+	background-color:#adc4de;
+}
+
+#middleHeader {
+	background:#ffffff;
+	width:1200px;
+}
+#hero {
+padding:10px;
+
+}
