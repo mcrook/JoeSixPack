@@ -72,6 +72,7 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color:#422b2e;
 }
 
 h2 {
@@ -83,6 +84,7 @@ h2 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color:#422b2e;
 }
 
 h3 {
@@ -94,6 +96,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color:#422b2e;
 }
 
 h4 {
@@ -104,6 +107,7 @@ h4 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    color:#422b2e;
 }
 
 h5 {
@@ -217,7 +221,6 @@ p {
 font-size:1.0em;
 	font-family: 'Oswald', sans-serif;
 	font-weight:500;
-	color:#ffe6be;
 	display:inline-block;
 	height:40px;
 	line-height:40px;
@@ -232,16 +235,21 @@ font-size:1.0em;
 
 .nav a:hover {
   background-color: #a20000;
+  color:#ffffff!important;
 }
-.nav a:active {
-color:#FFFFFF!important;
-}
-.nav a:visited {
-color:#FFFFFF!important;
-}
+
 .nav li {
 	 display: inline-block;
 	 margin-right: -4px;
+ }
+ #nav-right {
+   position: relative;
+   float: right;
+   padding-top:5px;
+   font-family:'Open Sans', sans-serif;
+   font-weight:300;
+   font-size:14px;
+   display:block;
  }
  .nav-right {
     position: relative;
