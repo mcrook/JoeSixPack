@@ -64,7 +64,7 @@ ul {
 }
 /*=======END OF RESETS============*/
 h1 {
-	font-family:'Open Sans', sans-serif;
+	font-family:'Oswald', sans-serif;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -160,8 +160,7 @@ body {
 	height:100%;
 	margin:0;
 	width:100%;
-
-
+  padding-bottom:90px;
 }
 p {
   font-family:'Open Sans', sans-serif;
@@ -268,16 +267,26 @@ color:#FFFFFF!important;
 	height:auto;
 	position:relative;
 }
-#middleHeader {
+#subHeader {
+  padding:20px;
+  width:100%;
+  dislpay:inline-block;
 	position:relative;
-	width:50%;
-	min-height:50px;
+	min-height:65px;
 }
 #socialMedia {
-	position:relative;
-  margin-left:15px;
-	padding-left:1000px;
-	padding-top:24px;
+	float:right;
+  display:inline-block;
+  padding-left:10px;
+}
+#webForm {
+    float:right;
+    color: #422b2e;
+    display:inline-block;
+}
+fieldset {
+  border:0 none;
+  width: 100%;
 }
 /*======== Main Content Area ==========>*/
 .main-container {
@@ -311,23 +320,7 @@ input{
 	padding-left:5px;
 	border:2px solid #422b2e;
 }
-#webForm {
-	box-sizing: border-box;
-    top: 60px;
-    padding-top: 0;
-    left: 860px;
-    position: absolute;
-    color: #422b2e;
-    width: 380px;
-}
-	}
-fieldset {
-border:0 none;
-    width: 100%;
-    top: 0px;
-    position: absolute;
-    left: 0px;
-}
+
 button.formButton {
 	font-family:'Open Sans', sans-serif;
 	font-weight:300;
