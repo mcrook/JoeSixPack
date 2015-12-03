@@ -248,9 +248,8 @@ font-size:1.0em;
    padding-top:5px;
    font-family:'Open Sans', sans-serif;
    font-weight:300;
-   font-size:11px;
+   font-size:14px;
    display:block;
-   padding-bottom:10px;
  }
  .nav-right {
     position: relative;
@@ -421,7 +420,7 @@ footer {
 	position:relative;
 	width:1180px;
 	height:160px;
-}
+} 
 .footeritem {
 	box-sizing: content-box;
 	height:150px;
@@ -441,12 +440,13 @@ footer {
 	font-weight:700;
 }
 #page-wrap {
-	width: 1000px;
+	width: 660px;
 	background: transparent;
 	padding: 20px 50px 20px 0px;
 	margin: 20px auto;
 	min-height: 500px;
 	height: auto !important;
+	height: 500px;
 }
 #contact-area {
 	width: 600px;
