@@ -166,7 +166,7 @@ body {
 	width:100%;
   padding-bottom:90px;
 }
-p {
+p, ul {
   font-family:'Open Sans', sans-serif;
   line-height: 130%;
   color:#422b2e;
@@ -305,7 +305,7 @@ background-color:#fff;
 }
 .main-content {
 	position:relative;
-	background:#c6d1de;
+	background:#ceddef;
 	padding:0;
 	height:650px;
 }
@@ -317,7 +317,7 @@ background-color:#fff;
   .leftColumn { margin-right: 19.5em; }
 
 	.rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }
-
+}
 form, input {
   color:#422b2e;
 	font-family: 'Open Sans', sans-serif;
@@ -419,8 +419,8 @@ footer {
 	box-sizing: content-box;
 	position:relative;
 	width:1180px;
-	height:160px;
-} 
+	height:225px;
+}
 .footeritem {
 	box-sizing: content-box;
 	height:150px;
@@ -440,9 +440,9 @@ footer {
 	font-weight:700;
 }
 #page-wrap {
-	width: 660px;
+	width: 1050px;
 	background: transparent;
-	padding: 20px 50px 20px 0px;
+	padding: 20px 50px 20px 50px;
 	margin: 20px auto;
 	min-height: 500px;
 	height: auto !important;
@@ -558,4 +558,7 @@ a.control_next {
   margin: 10px auto;
   width: 160px;
   font-size: 18px;
+}
+.beer_content, .book-content {
+  font-family:'Open Sans',sans-serif;
 }
